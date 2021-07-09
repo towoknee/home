@@ -9,27 +9,15 @@ const mainBody = {
   firstName: "Tony",
   middleName: "",
   lastName: "Doan",
-  message: " Passionate about changing the world with technology. ",
+  message: " beep beep boop boop - software is cool ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/towoknee/home",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/tony-doan/",
     },
   ],
 };
@@ -51,10 +39,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/mehehe.png"),
   imageSize: 375,
   message:
-    "My name is Tony Doan. I’m a graduate from UC Davis and code is cool."
+    "My name is Tony Doan. I graduated from UC Davis in 2020 with a bachelor's in computer science. I'm currently working as a full-stack engineer and am learning a lot! I enjoy spending time with friends, going on long roadtrips, and just doing what excites."
 };
 
 // PROJECTS SECTION
@@ -65,7 +53,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "towoknee", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -78,12 +66,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/mehehe.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/mehehe.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -99,14 +87,12 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "C/C++", value: 45 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 80 },
+    { name: "HTML/CSS", value: 45 },
+    { name: "C#", value: 55 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -124,9 +110,8 @@ const skills = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  message: "Feel free to contact me at",
+  email: "toedoan@gmail.com"
 };
 
 const experiences = {
